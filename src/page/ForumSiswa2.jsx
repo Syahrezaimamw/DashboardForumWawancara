@@ -52,10 +52,10 @@ const ForumSiswa2 = () => {
                             </label>
                                 <select
                                     id="aktif"
-                                    className=" border border-gray-300 h-12 text-gray-400  text-sm rounded-lg focus:ring-maroon outline-none focus:border-maroon  block w-full p-2.5 "
+                                    className="select-option border border-gray-300 h-12 text-gray-400  text-sm rounded-lg focus:ring-maroon outline-none focus:border-maroon  block w-full p-2.5 "
                                 >
-                                    <option selected="">Choose a country</option>
-                                    <option value="US">Pernah</option>
+                                    <option selected="" className=''>Choose a country</option>
+                                    <option value="US" className=''>Pernah</option>
                                     <option value="CA">Tidak</option>
                                   
                                 </select>

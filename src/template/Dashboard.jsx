@@ -217,10 +217,10 @@ const Dashboard = ({ title, children }) => {
                                         <ul className="" role="none">
                                           
                                             <li
-                                                onClick={() => setShowYourProfile(true)}
+                                                // 
                                                 className='flex items-center justify-between px-4 py-2 text-gray-700 cursor-pointer hover:text-white hover:bg-maroon' >
                                                 <span
-                                                    onClick={() => setShowYourProfile(true)}
+                                                    // 
 
                                                     className="block text-sm "
 
@@ -243,15 +243,15 @@ const Dashboard = ({ title, children }) => {
 
                                             </li>
                                             <li
-                                                onClick={() => setShowYourProfile(true)}
+                                                
                                                 className='flex items-center justify-between px-4 py-2 text-gray-700 cursor-pointer hover:text-white hover:bg-maroon' >
                                                 <span
-                                                    onClick={() => setShowYourProfile(true)}
+                                                    
 
                                                     className="block text-sm "
 
                                                 >
-                                                    Your Profil
+                                                    Log out
                                                 </span>
                                                 <FaArrowRightFromBracket/>
 
