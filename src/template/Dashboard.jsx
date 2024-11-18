@@ -165,7 +165,7 @@ const Dashboard = ({ title, children }) => {
 
                                     <img
                                         src={img}
-                                        className=" w-[25px] bg-red-900 me-3"
+                                        className=" w-[32px] bg-white me-3"
                                     />
                                     <span className="self-center text-xl font-bold text-gray-800 sm:text-2xl whitespace-nowrap">
                                         SMK LETRIS INDONESIA 2
@@ -268,13 +268,13 @@ const Dashboard = ({ title, children }) => {
 
                 <aside
                     id="logo-sidebar"
-                    className={`${showSide ? '-translate-x-0' : '  -translate-x-full'} fixed top-0 left-0 z-40 w-64 h-screen transition-transform  border-r md:translate-x-0 dark:bg-gray-800 border-maroon`}
+                    className={`${showSide ? '-translate-x-0' : '  -translate-x-full'} fixed top-0 left-0 z-40 w-64 h-screen transition-transform  border-r md:translate-x-0 bg-gray-800 border-maroon`}
                     aria-label="Sidebar"
                 >
                     <div className="h-full mt-1  px-4 pt-20 flex flex-col justify-between pb-4 overflow-y-auto bg-white/[99]">
                         <div>
 
-                            <ul className="pb-4 space-y-2 font-medium border-b-2">
+                            <ul className="pb-4 space-y-2 font-medium ">
                                 {
                                     data.map((e, i) => (
                                         <li key={i} className='cursor-pointer'>
@@ -305,8 +305,8 @@ const Dashboard = ({ title, children }) => {
 
 
 
-                <div className="p-4 mt-3 bg-neutral-100/30 md:ml-64">
-                    <div className=" border-gray-200 bg-neutral-100/30  rounded-lg mt-14 min-h-[620px]  w-full ">
+                <div className="p-4 mt-3 bg-neutral-100/20 md:ml-64">
+                    <div className=" border-gray-200  rounded-lg mt-14 min-h-[620px]  w-full ">
 
 
                         {children}
