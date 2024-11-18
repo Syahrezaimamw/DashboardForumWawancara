@@ -136,7 +136,6 @@ const Dashboard = ({ title, children }) => {
     const [showProfile, setShowProfile] = useState(false)
     const [showYourProfile, setShowYourProfile] = useState(false)
     const [showSide, setShowSide] = useState(false)
-    console.log(showYourProfile)
     function handleSide() {
         showSide ? setShowSide(false) : setShowSide(true)
     }

@@ -10,13 +10,13 @@ const ForumSiswa = ({ }) => {
             <Forum title={'Forum Data Peserta Didik'}>
                 <div className='max-w-5xl px-4 mx-auto mt-5'>
 
-                    <div className='flex items-center justify-center w-full font-medium '>
-                        <div className='flex items-center justify-center gap-2 px-4 py-2 text-sm border-2 rounded-full sm:py-2 border-maroon'> <span className='size-[20px] flex items-center justify-center border-2 rounded-full border-maroon'>1</span> <span>Kompetisi Keahlian </span></div>
+                    <div className='flex items-center text-[12px] justify-center w-full font-medium sm:text-sm '>
+                        <div className='flex items-center justify-center gap-2 px-4 py-2 border-2 rounded-full sm:py-2 border-maroon'> <span className='size-[18px] sm:size-[20px] flex items-center justify-center border-2 rounded-full border-maroon'>1</span> <span>Kompetisi Keahlian </span></div>
                         <div className='border-2'></div>
 
-                        <div className="hidden sm:flex w-[40px] bg-gray-200 h-0.5 dark:bg-gray-300" />
+                        <div className="flex w-[10px] sm:w-[40px] bg-gray-300 h-0.5" />
 
-                        <div className='flex items-center justify-center gap-2 px-4 py-2 text-sm text-gray-600 border-2 border-gray-300 rounded-full'> <span className='size-[20px] flex items-center justify-center border-2 rounded-full border-gray-300'>2</span> <span>Tentang Sekolah </span></div>
+                        <div className='flex items-center justify-center gap-2 px-4 py-2 text-gray-600 border-2 border-gray-300 rounded-full'> <span className='size-[18px] sm:size-[20px] flex items-center justify-center border-2 rounded-full border-gray-300'>2</span> <span>Tentang Sekolah </span></div>
                     </div>
                     <div className='w-full pb-4 mt-12 border-b-2'>
                         <p className='text-lg font-medium text-gray-600'> Bagian 1</p>
@@ -92,7 +92,7 @@ const ForumSiswa = ({ }) => {
                                     htmlFor="harapan di kompetensi"
                                     className="block mb-2 font-medium text-md e"
                                 >
-                                   Apa Harapanmu di Kompetensi Tersebut
+                                    Apa Harapanmu di Kompetensi Tersebut
                                 </label>
                                 <input
                                     type="text"
